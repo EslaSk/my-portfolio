@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Esla Kagbu — Software Engineer & Frontend Developer specialising in building clean, performant digital experiences." />
+  <meta name="keywords" content="Esla Kagbu, Software Engineer, Frontend Developer, React, JavaScript, Nigeria" />
+  <meta name="author" content="Esla Kagbu" />
+  <meta property="og:title" content="Esla Kagbu — Software Engineer & Frontend Developer" />
+  <meta property="og:description"
+    content="I build clean, performant digital experiences at the intersection of design and technology." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@Kagbuesla" />
+  <title>Esla Kagbu — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-name">ESLA KAGBU</div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+    <div class="loader-pct" id="loader-pct">0%</div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">EK<span class="logo-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon-light">☀</span>
+        <span class="theme-icon-dark">☽</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Work</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal-fade">Available for work &nbsp;·&nbsp; 2026</div>
+      <h1 class="hero-title reveal-fade">
+        I build things<br />for the <em>web</em>
+      </h1>
+      <p class="hero-sub reveal-fade">
+        Software Engineer & Frontend Developer focused on creating fast, accessible, and visually sharp digital
+        products. Based in Nigeria, working with the world.
+      </p>
+      <div class="hero-actions reveal-fade">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card reveal-fade">
+        <div class="hc-label">Current stack</div>
+        <div class="hc-stack">
+          <span>React</span><span>TypeScript</span><span>Node.js</span><span>Tailwind</span>
+        </div>
+        <div class="hc-divider"></div>
+        <div class="hc-label">Status</div>
+        <div class="hc-status"><span class="status-dot"></span>Open to opportunities</div>
+      </div>
+      <div class="hero-geo"></div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>Scroll
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <p class="section-label">About me</p>
+          <h2>Turning ideas into<br /><em>real products</em></h2>
+          <div class="about-img-wrap">
+            <img src="image/coding.jpg" alt="Esla Kagbu coding" class="about-img" />
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <p>I'm Esla Kagbu, a Software Engineer and Frontend Developer with a focus on building clean, high-performance
+            web applications. I care deeply about the details — the kind that make a product feel polished and
+            intentional.</p>
+          <p>With hands-on experience across the full frontend stack, I thrive at the intersection of design and
+            engineering. I've contributed to real-world projects through tech bounties, collaborating with distributed
+            teams to ship solutions that matter.</p>
+          <p>When I'm not writing code, I'm thinking about how to make existing things better — faster, cleaner, more
+            accessible.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Years experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">40+</span>
+              <span class="stat-label">Projects delivered</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">30+</span>
+              <span class="stat-label">Happy clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="skills-header reveal">
+        <p class="section-label">What I work with</p>
+        <h2>Skills &amp; <em>Tools</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">⬡</div>
+          <h3>Languages</h3>
+          <ul>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">◈</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Responsive Design</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">✦</div>
+          <h3>Backend &amp; Tools</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Git &amp; GitHub</li>
+            <li>REST APIs</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="projects-header reveal">
+        <div>
+          <p class="section-label">Selected work</p>
+          <h2>Things I've <em>built</em></h2>
+        </div>
+        <div class="filter-wrap">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button class="filter-btn" data-filter="ui">UI / UX</button>
+        </div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card project-card--media reveal" data-category="frontend">
+          <div class="project-media">
+            <video src="image/salon-website.mp4" muted loop playsinline class="project-video"></video>
+            <div class="project-media-overlay">▶ Play</div>
+          </div>
+          <div class="project-body">
+            <div class="project-num-inline">01</div>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Lash &amp; Salon Website</h3>
+            <p>A fully responsive website for a lash tech and salon business — clean layout, booking-focused design, and
+              smooth interactions across all devices.</p>
+            <span class="project-link project-link--muted">Local project · not deployed</span>
+          </div>
+        </div>
+        <div class="project-card project-card--media reveal" data-category="ui">
+          <div class="project-media">
+            <img src="image/finance-dashboard.png" alt="Financial Dashboard" class="project-screenshot" />
+          </div>
+          <div class="project-body">
+            <div class="project-num-inline">02</div>
+            <div class="project-tags">
+              <span>React</span><span>TypeScript</span><span>Tailwind</span>
+            </div>
+            <h3>Financial Dashboard</h3>
+            <p>A data-rich financial dashboard with charts, summaries, and real-time-ready components. Built with a
+              focus on clarity and usability.</p>
+            <span class="project-link project-link--muted">Local project · not deployed</span>
+          </div>
+        </div>
+        <div class="project-card project-card--media reveal" data-category="frontend">
+          <div class="project-media">
+            <img src="image/marketing-website.png" alt="Digital Marketing Website" class="project-screenshot" />
+          </div>
+          <div class="project-body">
+            <div class="project-num-inline">03</div>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Digital Marketing Website</h3>
+            <p>A modern, conversion-focused website for a digital marketing agency — bold layout, clear messaging, and a
+              strong visual hierarchy.</p>
+            <span class="project-link project-link--muted">Local project · not deployed</span>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="fullstack">
+          <div class="project-num">04</div>
+
+          <div class="project-body">
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>Python</span>
+            </div>
+            <h3>Crest Studio</h3>
+            <p>A full-featured web platform for a creative studio — from design system implementation to production
+              deployment and CI/CD setup.</p>
+            <a href="https://github.com/Codekill33" target="_blank" rel="noopener" class="project-link">View on GitHub
+              →</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-cta reveal">
+        <a href="https://github.com/EslaSk" target="_blank" rel="noopener" class="btn-outline">See all on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-inner">
+      <div class="services-header reveal">
+        <p class="section-label">What I offer</p>
+        <h2>Services</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-num">01</span>
+          <div class="service-icon">⬡</div>
+          <h3>Frontend Development</h3>
+          <p>Pixel-perfect, performant interfaces built with modern tooling. I translate designs into fast, accessible,
+            and maintainable code.</p>
+          <div class="service-tags">
+            <span>React</span><span>TypeScript</span><span>Tailwind</span>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">02</span>
+          <div class="service-icon">◈</div>
+          <h3>Full Stack Development</h3>
+          <p>End-to-end web applications — from database design and API architecture to polished frontend interfaces
+            ready for production.</p>
+          <div class="service-tags">
+            <span>Node.js</span><span>REST APIs</span><span>Python</span>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">03</span>
+          <div class="service-icon">✦</div>
+          <h3>UI / UX Implementation</h3>
+          <p>Bringing design files to life with meticulous attention to detail — animations, interactions, and
+            responsive behaviour across all devices.</p>
+          <div class="service-tags">
+            <span>Figma</span><span>CSS</span><span>Motion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <p class="section-label">Get in touch</p>
+          <h2>Let's build<br />something <em>great</em></h2>
+          <p>Have a project in mind, or just want to talk? I'm always open to new opportunities and interesting
+            conversations. I'll get back to you within 24 hours.</p>
+          <div class="contact-info">
+            <a href="mailto:kagbuesla@gmail.com" class="contact-item">
+              <span class="contact-icon">@</span>kagbuesla@gmail.com
+            </a>
+            <a href="tel:+2349133910415" class="contact-item">
+              <span class="contact-icon">#</span>+234 913-3910-415
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon">◎</span>Available worldwide · Remote
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Codekill33" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://x.com/Kagbuesla" target="_blank" rel="noopener" aria-label="Twitter/X">Twitter / X</a>
+            <a href="https://www.linkedin.com/in/esla-kagbu" target="_blank" rel="noopener"
+              aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <form id="contact-form" action="https://formspree.io/f/xyklwgbp" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="John" required />
+                <span class="field-error" id="err-first-name"></span>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Doe" required />
+                <span class="field-error" id="err-last-name"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              <span class="field-error" id="err-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project enquiry" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+              <span class="field-error" id="err-message"></span>
+            </div>
+            <button type="submit" id="submit-btn">
+              <span class="btn-text">Send Message →</span>
+              <span class="btn-sending" hidden>Sending...</span>
+            </button>
+            <div class="form-success" id="form-success" hidden>
+              Message sent! I'll get back to you within 24 hours.
+            </div>
+            <div class="form-error-msg" id="form-error" hidden>
+              Something went wrong. Please try emailing me directly at kagbuesla@gmail.com
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 Esla Kagbu. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Codekill33" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://x.com/Kagbuesla" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.linkedin.com/in/esla-kagbu" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" aria-modal="true" role="dialog" aria-label="Media viewer">
+    <button id="lightbox-close" aria-label="Close">✕</button>
+    <div id="lightbox-content"></div>
+  </div>
+
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
