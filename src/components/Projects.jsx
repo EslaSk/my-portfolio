@@ -47,7 +47,7 @@ const Projects = () => {
       >
         <motion.div variants={fadeUpVariant} className="project-card project-card--media" data-category="frontend">
           <div className="project-media">
-            <video src="image/salon-website.mp4" muted loop playsInline className="project-video"></video>
+            <video src="/image/salon-website.mp4" muted loop playsInline className="project-video"></video>
             <div className="project-media-overlay">▶ Play</div>
           </div>
           <div className="project-body">
@@ -63,7 +63,7 @@ const Projects = () => {
         
         <motion.div variants={fadeUpVariant} className="project-card project-card--media" data-category="ui">
           <div className="project-media">
-            <img src="image/finance-dashboard.png" alt="Financial Dashboard" className="project-screenshot"/>
+            <img src="/image/finance-dashboard.png" alt="Financial Dashboard" className="project-screenshot"/>
           </div>
           <div className="project-body">
             <div className="project-num-inline">02</div>
@@ -78,7 +78,7 @@ const Projects = () => {
         
         <motion.div variants={fadeUpVariant} className="project-card project-card--media" data-category="frontend">
           <div className="project-media">
-            <img src="image/marketing-website.png" alt="Digital Marketing Website" className="project-screenshot"/>
+            <img src="/image/marketing-website.png" alt="Digital Marketing Website" className="project-screenshot"/>
           </div>
           <div className="project-body">
             <div className="project-num-inline">03</div>
